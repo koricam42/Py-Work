@@ -1,0 +1,20 @@
+Chapter 9 Topics:
+
+2. Pick a S.O.L.I.D. design principle and explain the concept
+and how you can meet that principle when designing a program 
+
+Chosen Principle - Single Responsibility Principle (The S in S.O.L.I.D)
+
+The concept behind the single responsibility principle is that each class you create should have a single responsibilty.
+When you give a class multiple responsibilities, you increase the chances of introducing new bugs to your program whenever you need to update your program.
+This can also lead to merge conflicts when working with multiple other developers who are working on the same file with an overloaded class.
+You can achieve this principle while programming by making sure that you separate different functionalities into their own classes.
+For example, in my upcoming note taking app for our first project, in order to follow the "S" principle, I should rework my code. 
+In my current code, a single while loop handles printing the menu, collecting user input, and managing the dictionaries that contain the note data.
+To follow SOLID, I could break up this look into multiple classes; a menu class that handles the interactive loop and displays print statements to the user, a
+note managing class that stores the list of notes and handles the data logic. By splitting these into different class I can go back and easily change the way the terminal based menu 
+visuals by editing the menu class without potentially breaking list management, keeping the code organized.
+
+References
+
+Alex Hyett. (2023, June 16). SOLID principles: Do you really understand them? YouTube. https://www.youtube.com/watch?v=kF7rQmSRlq0
