@@ -1,0 +1,20 @@
+Chapter 10 Topics
+
+5. Describe refactoring and its benefits.
+
+Refactoring is a process where a programmer cleans up code by splitting it into multiple functions without changing its function.
+This process is used to simplify the structure of overly complex code, making future additions easier to build.
+The major benefits of refactoring are cleanliness: It makes the program much easier to understand, and helps anyone else reading your code
+to understand it properly. It also helps reduce the chances of introducing bugs into your program, as both reducing complexity and making it easier to read helps you 
+comprehend your program more deeply. Refactor can be used as another method of learning, as actively revamping your code over and over will make you more familiar with the
+sensibilities of python.
+I could use refactoring by splitting my main function in my geometry calculator into separate functions that handle the specified shape
+While the main loop is used for exclusively running the main menu loop prompting the user for an option. 
+It would make my code easier to understand since each shapes logic would be in its own function,
+And it would make it easy to add more shapes in the future, since I could simply add a new function for the shape
+instead of wading into an increasingly long main function that handles all inputs. 
+
+References
+- Matthes, E. (2023b). Python crash course: A hands-on, project-based introduction to programming. No Starch Press,.
+- Fagbuyiro, D. (2022, August 18). Code refactoring best practices – with python examples. freeCodeCamp.Org. https://www.freecodecamp.org/news/best-practices-for-refactoring-code/
+- Shaw, A. (2019, March 4). Refactoring python applications for simplicity. Real Python. Realpython.Com. https://realpython.com/python-refactoring/#refactoring-in-python
