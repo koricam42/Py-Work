@@ -10,9 +10,11 @@ from random import randint
 
 class Die:
 
-    def __init__(self, sides):
-        sides == 6
-        pass
+    def __init__(self, sides=6):
+        self.sides = sides
+
     
     def roll_die(self):
-        pass
+        roll = randint(1, self.sides) 
+        print(roll)
+
