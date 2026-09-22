@@ -18,3 +18,7 @@ class Die:
         roll = randint(1, self.sides) 
         print(roll)
 
+six_sided_die = Die()
+for x in range(10):
+    six_sided_die.roll_die()
+
