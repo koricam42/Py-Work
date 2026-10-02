@@ -1,7 +1,10 @@
 """
 Author: Jordan Mensah
-
-
+Date: 10/2/26
+Source Code (References):
+    - Fibonacci Sequence Help: https://pythonguides.com/python-fibonacci-series/
+    - More Fibonacci Stuff: https://www.geeksforgeeks.org/python/python-program-for-n-th-fibonacci-number/
+    - Even More Fibonacci Stuff: 
 """
 
 def even_sum_fibonacci():
