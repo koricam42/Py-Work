@@ -10,7 +10,7 @@ Source Code (References):
 def even_sum_fibonacci():
     """Finds the sum of even-valued terms in the fibonacci sequence lower than four million.
         returns:
-            something: stuff to write here
+            int: Total sum of even valued terms in the fibonacci sequence < 4,000,000
     """
 
     current1, next1 = 1, 2
@@ -19,6 +19,7 @@ def even_sum_fibonacci():
     while current1 <= 4000000:
         if current1 % 2 == 0:
             even_sum += current1
+
 
         temp1 = current1
         current1 = next1
