@@ -12,7 +12,15 @@ def even_sum_fibonacci():
 
     current1, next1 = 1, 2
     even_sum = 0
+
     while current1 <= 4000000:
         if current1 % 2 == 0:
             even_sum += current1
-        return even_sum
+
+        temp1 = current1
+        current1 = next1
+        next1 = temp1 + next1
+
+    return even_sum
+
+print(even_sum_fibonacci())
