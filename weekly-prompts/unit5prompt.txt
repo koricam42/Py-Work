@@ -2,3 +2,16 @@ Week 5 Weekly Prompt
 
 Jordan Mensah
 
+Chapter 11 Topics
+
+Explain why creating tests can be useful in the process of software development.
+
+Creating and using tests can be useful in software development because it helps you ensure that your written code functions properly in multiple scenarios before deployment.
+It allows to make sure that written functions work both independently and as a whole unit, using multiple tests to validate operations in numerous scenarios.
+For example, I could use a test to check if my note-taking application properly formats my dictionary data and writes it into the JSON file.  
+
+Additionally, tests can act as pseudo-documentation. 
+Just like a well-named function name, a test can indicate how a function or class is supposed to operate to any co-contributors working alongside you. 
+Tests can also automate various test cases for you to reduce tedious labour. 
+You can make a test that can input several input variations to test your function, without having to run your program and test inputs manually. 
+Finally, while refactoring your code, you can use previously made tests to ensure that your updated code still passes all tests, proving that no core functionality was broken with the refactor.
