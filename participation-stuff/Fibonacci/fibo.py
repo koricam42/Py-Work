@@ -4,8 +4,8 @@ Author: Jordan Mensah
 
 """
 
-def limitless():
-    """Generates fibbonacci sequence until number four million is reached.
+def even_sum_fibonacci():
+    """Finds the sum of even-valued terms in the fibonacci sequence lower than four million.
         returns:
             something: stuff to write here
     """
