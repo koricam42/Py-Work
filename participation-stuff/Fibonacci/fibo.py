@@ -10,9 +10,9 @@ def even_sum_fibonacci():
             something: stuff to write here
     """
 
-    uno, dos = 1, 2
+    current1, next1 = 1, 2
     even_sum = 0
-    while uno <= 4000000:
-        if uno % 2 == 0:
-            even_sum += uno
+    while current1 <= 4000000:
+        if current1 % 2 == 0:
+            even_sum += current1
         return even_sum
