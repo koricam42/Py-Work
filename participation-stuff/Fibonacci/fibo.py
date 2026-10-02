@@ -9,3 +9,10 @@ def even_sum_fibonacci():
         returns:
             something: stuff to write here
     """
+
+    uno, dos = 1, 2
+    even_sum = 0
+    while uno <= 4000000:
+        if uno % 2 == 0:
+            even_sum += uno
+        return even_sum
