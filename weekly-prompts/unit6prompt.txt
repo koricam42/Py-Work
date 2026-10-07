@@ -1,0 +1,17 @@
+Week 6 Weekly Prompt
+
+Jordan Mensah
+
+Chapter 13 Topic(s)
+
+"Collisions are checked between the spaceship and aliens to enable the game ending.
+What is the sprite utility used? What is the difference between that and the groupcollide in the previous question?"
+
+The sprite utility used to check the game-ending collision is pygame.sprite.spritecollideany().
+The difference between the groupcollide() and spritecollideany() are primarily between what they accept and the data they return.
+Spritecollideany takes a single sprite (The Ship) and checks it against an entire group of sprites (The Aliens). 
+It loops through the entire group until it finds a member that has collided against the sprite, and returns that alien. Otherwise, it returns none.
+On the other hand, groupcollide compares two entire groups of sprites against each other, the bullets and the aliens.
+Instead of just returning the sprite and stopping after a hit, it evaluates every member of both groups.
+When the rect of the bullet connects with the rect of the alien, groupcollide adds a key-value pair to a dict.
+Groupcollide makes the alien disappear right when it gets hit via boolean arguments, while spritecollideany reports the impact, letting you decide the outcome of the impact. 
