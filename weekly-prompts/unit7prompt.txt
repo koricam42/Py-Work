@@ -1,0 +1,18 @@
+Unit 7 Weekly Prompt
+
+Jordan Mensah
+
+1. Chapter 14 Topic
+
+"In Chapter 14, you will note that in the code example for the Button class, the author has included a triple-quoted strings for the class, and functions.
+In fact, in most of the code provided in the book, triple-quoted strings have been provided for modules, methods, functions and classes.
+Discuss how these docstrings help programmers with their workflow. Remember your experience and the internet are your friends."
+
+The triple-quoted docstrings within code examples of our python textbook are an in-line form of documentation for programmers.
+When building out classes and functions, docstrings quickly inform programmers about a function/classes intended functions, parameters and return values.
+This allows a programmer to quickly understand the logic of a function or class without needing to parse the code line by line.
+For example, in a modern Integrated Development Environments (IDE) such as Visual Studio Code, by hovering over an imported module, class, or method with a docstring, the IDE reveals the docstring as a popup,
+Allowing you to understand its purpose instantly without having to swap back and forth between files, saving the programmer time.
+The docstrings also can work intertwined with type hints as a project diagram, so if for instance you return to a program after a long time,
+Or you introduce a new programmer to a project, all users can quickly understand how the program works, streamlining the development process.
+
