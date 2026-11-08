@@ -1,0 +1,29 @@
+Unit 8 Weekly Prompt
+
+Jordan Mensah
+
+1. Chapter 15 Topics
+
+"Colormaps are used extensively with scientific data.
+How are these applied when visualizing measurable phenomenon like temperatures or rainfall? 
+Reference your textbook or the internet. Cite examples that you find interesting."
+
+According to the textbook, a colormap is a sequence of colors in a gradient that moves from a starting color to an ending one. 
+They are used in visualizations to display and highlight patterns in data through the use of color. 
+For example, you could show low or high points in data by making them brighter or dimmer colors in the colormap.
+Colormaps are applied to various phenomena across a wide variety of data, many of which are encountered in daily life.
+A weather radar map used to showcase a storm is a type of colormap that showcases radar reflectivity using yellows, greens, and reds.
+Another example of colormaps can be found in thermal imaging cameras, which often use a specific color palette named "Ironbow".
+The ironbow color palette uses lighter colors to highlight hotter temperatures, and darker and cooler colors for colder temperatures.
+Medical imaging is another area where colormaps are used. Doppler ultrasound uses a specific colormap to show blood flow.
+Flow that moves towards the probe is visualized with shades of red, orange, and yellow, while flow moving away uses shades of blue.
+The colormap also uses the brightness of the colors to show speed, with brighter colors meaning faster flow, and darker colors meaning slower flow.
+This allows people to quickly identify any potential blood blockages, since they will be differentiated in appearance.  
+
+
+
+
+References:
+https://learning.oreilly.com/library/view/python-crash-course/9781098156664/c15.xhtml#h1-502703c15-0005 (Python Crash Course)
+https://scienceinsights.org/what-is-a-color-map-types-uses-and-how-to-choose/ (Science Insight - What is a Colormap)
+https://www.flir.com/discover/industrial/picking-a-thermal-color-palette/ (Picking a Thermal Color Palette)
