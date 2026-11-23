@@ -1,0 +1,20 @@
+Unit 8 Weekly Prompt
+
+Jordan Mensah
+
+Chapter 16 Topics
+
+2. "Discuss how to avoid invalid data entries when reading from CSV data files."
+
+While reading data from CSV data files, invalid/missing/wrongly-formatted data entries can sometimes appear for various reasons
+such as their being multiple different types of data involved, or errors in the recording equipment used to capture the data.
+Furthermore, python csv.reader() parses each line into a list of strings, which can lead to a crash if you try to convert an empty string into a number via int().
+This can be handled by placing the conversion inside the try block, catching the ValueError in the except block to print a warning message, 
+and only using .append in the else block so that only correct rows are added.
+
+Another way you can avoid invalid data entries is by dynamically reading/mapping csv headers.
+Some data sets may store the variables in different column locations. 
+You can work around this by using next(reader) to read the first line, and then check the positions of the columns with enumerate(header_row)
+
+You can also use a “continue” statement while in a loop to skip over an incomplete row,
+or use remove() or del to remove invalid entries after extraction.
